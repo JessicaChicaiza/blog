@@ -3,7 +3,8 @@
 @section('title', 'SYSOFPETS')
 
 @section('content_header')
-    <h1>Listado de Post</h1>
+<a class="btn btn-secondary btn-sm float-right" href="{{route('admin.posts.create')}}">Nuevo Posts</a>
+    <h1>Listado de post</h1>
 @stop
 
 @section('content')
